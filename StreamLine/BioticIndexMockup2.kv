@@ -1,0 +1,70 @@
+#: import FadeTransition kivy.uix.screenmanager.FadeTransition
+#: import main main
+#: import ListAdapter kivy.adapters.listadapter.ListAdapter
+
+<SiteManagerScreen>:
+	available_sites: AvailableSites
+	on_pre_enter: root.refreshSiteList()
+	BoxLayout:
+		orientation:'vertical'
+		BoxLayout:
+			orientation:'horizontal'
+			Button:
+				text:'NEW SITE'
+				on_press:
+					root.manager.current = 'new_site'
+					root.refreshSiteList()
+			Button:
+				text:'Upload Site'
+				on_press: root.uploadSite()
+			Button:
+				text:'Edit Site'
+				on_press: app.root.current = 'enter_species'
+	
+		ListView:
+			id: AvailableSites
+			adapter:
+				ListAdapter(data=root.currentSiteTables(),cls=main.SiteButton)
+
+<SiteButton>:
+	size:(100,50)
+	size_hint_y: None
+	on_press: self.setSiteFile(self.text)
+	
+	#on_press: app.root.current = 'enter_species'
+
+
+<NewSiteScreen>:
+	site_input:SiteName
+	BoxLayout:
+		orientation: 'vertical'
+		TextInput:
+			keyboard_suggestions: False
+			id:SiteName
+		Button:
+			text: 'CREATE SITE'
+			on_press:
+				root.newSite()
+				root.manager.current = 'enter_species'
+				root.clear_text()
+
+
+<EnterSpeciesScreen>:
+	species_input:SpeciesCount
+	BoxLayout:
+		orientation: 'vertical'
+		TextInput:
+			keyboard_suggestions: False
+			id:SpeciesCount
+		BoxLayout:
+			orientation: 'horizontal'
+			Button:
+				text: 'Add Species'
+				on_release:
+					root.WriteSpecies()
+					root.clear_text()
+			Button: 
+				text: 'Exit Site'
+				on_release:
+					root.manager.current = 'site_manager'
+					root.clear_text()

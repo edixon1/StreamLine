@@ -1,0 +1,3 @@
+title=Mockup2
+author=Eliot Dixon
+orientation=portrait

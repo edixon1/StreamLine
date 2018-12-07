@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bioticindexes",
+  "private_key_id": "f9a7692e8f9dc02aad442a6b158b018c69a1af63",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBmwCPfS8QoljK\nzqa+gLxaq/geiNcBYZfbj2wuA+zWtIAp7riDsOC/qCKk738TspttOgIX5Lf1oQ3C\nsfbb50VUh+q2sJAX8cFIiYgbPaIZRLxPAC7PaZXF5h9MzWNLH9p1sTm8G2OSvVTV\nRfKTxuzVD/AKp0yZURQQo/PjGGN2gyhgkA5p0951AmUSDCMYmleb+eHwGz8GSsFN\nVmir0XMRUXsgwYCtvERpxCoKvoH/z8VHOnKJjBJSm3Tm0Ekn9YEPp4LCTn7us++p\ntdaqUFU+oQ0NP+tlK9Jwp4cep5bUu56eSHIl32TO50eFSbwVilLpd/IJog0wvFrK\nP/oAmlyRAgMBAAECggEACqRtFvYgKK9r5xYN92nXMLrERFVsUDCfqtuK7Eqd8b1x\nUBzFusN1z0M8SEm7+Aa44XuvUsXpUNC+E2Y59iOT3Y4tGkbBXPeWktiwiSLNrsrm\n+Qa/C/q3V24LaWre2unQ1ehcjpkI06+hoqmaKIJmUV3zaXqBzOm2iyWgCes0yHZb\nvkiuTyhRYu3njPF58WzBy5l8KuUMo74kS7WHpod/TXa3QlNAp0dJHfcmSq6zBORU\nLJ+WDHo0uIZ95X/FJk15zsuAwXkxBH1CE4WTfimt/axYV948/reHHV6s575W6rLK\nW6KyF90oQMJB2r2tIZapYo24Wlg+G4Rprv9pPFFHQwKBgQDjOfdKj1Pj32b+CriW\nZGsqAAgR/tFow1/oYk2T2xlG9zzJkFufvVcPW2pwLUvRV3ZVVVk8BHtU/FFEHd0+\n8mabppCSi535DyxxbUaybIt9JLDytlVk27gNfqj/DtIEfQwC8teXiv8U+Y7gvoM5\n7KSRPWSrXS23yUFPCXyykB6RkwKBgQDaHyQBA35XX51t3IJ+doYkYZ5UzREpqson\n/CMiVui4KtmgHY+zNWaQme6wUbSoFpO0BoEyQGbRHIBhdoGCFdH4eKpjTMIKUcbp\nPDXLLxUY9KRiqk0iKlWdlZfmFRNQHDpjQH0z0ZyL0MLYDI5Ow2aFt13crjBLnWEq\nR8X/lGd/ywKBgQDR1Ap3MKnQKNGr0GyqfGq1azgInh30t05OgtCOs+nArbjVjVf+\nx9KoXMuKcVmtJC4jGOCBWsYlMac91rIjWabFH2gr23/yqT9qMvXw9+lLk+FPEG8E\n5x0sYQVgGuh3up2n72aFC5cIYHe/NE5r5AoIEQBwemgoalHD0cf0AMApvwKBgGVZ\nAM6jw+lvGOP6CHwgMDXpUbsPSYE1xRaNFfoXrawc5N97vNBE6LIZhAlS/YD4dIq6\nVv91YxCYkKI4gPZjkxtDXdAj0ykeVDD88/XDm6brzRG3FX3hc8RzxI94jW+0ngCN\n717Lb1SbnFzsgJbiPdm1mJw4J2KK7qHJlZsqZmi/AoGAB7tN6F4mVvGXIb4jh4rK\nsnHQ//OSOlVGT3zdrBDKoyaWq4HhDAStzdZt27uOzPsiyWR0LeXPYuIbT0Wq9TuV\nw1HJrpzXrvQT1U6acG5RmCWat/TD0Nib6/y7bPZSdn2xADPzhkp5qVsxJbE8phl/\nPhaYjrOVA6fJu/mZ94GBqPo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "biotic-index@bioticindexes.iam.gserviceaccount.com",
+  "client_id": "106453450102961630478",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/biotic-index%40bioticindexes.iam.gserviceaccount.com"
+}
